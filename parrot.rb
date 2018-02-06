@@ -2,8 +2,8 @@
 # returns the phrase
 
 
-def parrot(str = 'Squawk!')
-  
+def parrot(str)
+  str ||= "Squawk!"
   puts str 
   str 
 end
